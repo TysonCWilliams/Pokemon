@@ -5,6 +5,39 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ .custom-background {
+  background: url("pokedex.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  }
+
+  .pokedex-container {
+    overflow-y: scroll !important;
+    max-height: 425px;
+    margin-left: 35px;
+  }
+
+/* * {
+  outline: 1px solid blue;
+} */
+
+.title-dec{
+  text-decoration: underline;
+}
+
+.title{
+  height: 27vh;
+}
+
+.pokemon{
+  height: 78vh;
+}
+.pointer{
+  cursor: pointer;
+}
+
 :root {
   --blue: blue;
   --indigo: indigo;
